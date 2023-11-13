@@ -6,7 +6,6 @@ from dash.dependencies import Input, Output
 import plotly.graph_objects as go
 import networkx as nx
 import random
-from dash.exceptions import PreventUpdate
 
 def getNRounds(stuff, rounds):
 

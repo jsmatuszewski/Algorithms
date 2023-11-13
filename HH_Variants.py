@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 import dash
 from dash import dcc
 from dash import Dash, html
@@ -713,8 +712,7 @@ def networkGraph(edges,length,title,color):
     return fig
 
 # Dash app
-
-app = Dash(__name__)
+app = dash.Dash(__name__)
 server = app.server
 
 app.layout = html.Div([

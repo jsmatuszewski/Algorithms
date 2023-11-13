@@ -4,6 +4,7 @@ from dash import dcc
 from dash import Dash, html
 from dash.dependencies import Input, Output
 import plotly.graph_objects as go
+import numpy
 import networkx as nx
 import random
 

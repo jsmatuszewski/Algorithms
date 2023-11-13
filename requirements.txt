@@ -1,6 +1,6 @@
 dash==2.14.1
 networkx==2.6.3
 plotly==5.18.0
-numpy==1.26.2
+numpy==1.21.6
 gunicorn
 dash-tools

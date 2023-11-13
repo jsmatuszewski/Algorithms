@@ -717,8 +717,6 @@ def networkGraph(edges,length,title,color):
 app = Dash(__name__)
 server = app.server
 
-app.title = 'Dash Networkx'
-
 app.layout = html.Div([
     html.H1('Havel Hakimi',style={'textAlign': 'center','color': 'black','font-size': 40}),
     html.I('Enter a degree sequence: ',style={'color': 'black','font-size': 25}),

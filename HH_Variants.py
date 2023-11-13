@@ -767,7 +767,6 @@ def update_graph(steps,sequence,param):
         pr_hh= getNRounds(prhh,steps)
         par_hh= getNRounds(parhh,steps)
         value = steps
-        print(minhh)
 
     else:
 

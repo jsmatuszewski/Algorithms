@@ -794,4 +794,4 @@ def update_graph(steps,sequence,param):
 
     return IETsr, value, marks, figure1, figure2, figure3, figure4, figure5, figure6
 
-app.run_server(debug=False)
+app.run_server(host='0.0.0.0', port=10000)

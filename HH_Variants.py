@@ -800,4 +800,4 @@ def update_graph(steps,sequence,param):
     return IETsr, value, marks, figure1, figure2, figure3, figure4, figure5, figure6
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
